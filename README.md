@@ -7,4 +7,4 @@ This program defines a complete 2D car racing game using Pygame, where a player 
 This car racing game includes key features such as a three-lane road system, smooth left and right keyboard controls, animated lane markers to create a moving road effect, randomly generated enemy vehicles with different designs, real-time collision detection for side and head-on crashes, a scoring system that increases when vehicles are safely passed, automatic speed increase to raise difficulty as the score grows, a clear game-over screen with a crash image, and restart or exit options, all built using object-oriented programming and Pygame sprite groups for efficient and structured gameplay.
 
 ### output -->
-<img src="https://github.com/hemanathan115/Simple-python-game/blob/main/Screenshot_20251227-140953.Pydroid%203.png" alt="My Photo">
+<img src="https://github.com/hemanathan115/Simple-python-car-game/blob/main/simple%20python%20car%20game.jpg" alt="My Photo">
