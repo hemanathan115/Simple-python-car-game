@@ -1,1 +1,96 @@
-car
+Definition:-
+
+1. Imports and Initialization – Imports pygame, pygame.locals, and random, then initializes Pygame using pygame.init().
+
+
+2. Game Window Setup – Creates a 500×500 game window and sets the title as “Car Game”.
+
+
+3. Color Definitions – Defines RGB values for colors such as gray, green, red, white, and yellow for drawing the road, grass, text, and markers.
+
+
+4. Road and Lane Configuration – Sets the road width, lane marker size, and defines three lane positions (left, center, right).
+
+
+5. Road Graphics – Creates the road area and yellow edge markers on both sides of the road.
+
+
+6. Lane Marker Animation – Uses a variable to move lane markers downward to simulate road motion.
+
+
+7. Player Position – Sets the starting position of the player’s car near the bottom center of the screen.
+
+
+8. Game Timing – Uses a clock to control the frame rate (FPS = 120).
+
+
+9. Game Variables – Initializes game state variables like gameover, speed, and score.
+
+
+10. Vehicle Class – Defines a base Vehicle class that loads, scales, and positions vehicle images.
+
+
+11. PlayerVehicle Class – Inherits from Vehicle and loads the player’s car image.
+
+
+12. Sprite Groups – Creates sprite groups for the player and enemy vehicles.
+
+
+13. Player Creation – Creates the player’s car and adds it to the player sprite group.
+
+
+14. Enemy Vehicle Images – Loads different vehicle images (truck, taxi, van, etc.) for obstacles.
+
+
+15. Crash Image – Loads an image that is displayed when a collision occurs.
+
+
+16. Main Game Loop – Runs continuously while the game is active.
+
+
+17. Event Handling – Detects window close events and keyboard input.
+
+
+18. Player Movement – Moves the player’s car left or right between lanes using arrow keys.
+
+
+19. Side Collision Check – Checks for collisions immediately after lane changes.
+
+
+20. Background Drawing – Draws grass, road, edge markers, and animated lane markers.
+
+
+21. Vehicle Spawning – Randomly adds enemy vehicles in different lanes with spacing control.
+
+
+22. Vehicle Movement – Moves enemy vehicles downward based on game speed.
+
+
+23. Vehicle Removal – Removes vehicles once they move off-screen.
+
+
+24. Score Update – Increases score when vehicles pass safely.
+
+
+25. Speed Increase – Increases game speed after every 5 vehicles passed.
+
+
+26. Vehicle Rendering – Draws all enemy vehicles on the screen.
+
+
+27. Score Display – Displays the current score on the screen.
+
+
+28. Head-on Collision Detection – Ends the game if the player collides with an enemy vehicle.
+
+
+29. Game Over Display – Shows crash image and “Game Over” message.
+
+
+30. Restart or Exit Option – Allows the player to press Y to restart or N to quit.
+
+
+31. Game Reset – Resets speed, score, vehicle positions, and player position on restart.
+
+
+32. Game Exit – Properly exits the game loop and closes Pygame.
