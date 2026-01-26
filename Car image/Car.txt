@@ -94,3 +94,8 @@ Definition:-
 
 
 32. Game Exit – Properly exits the game loop and closes Pygame.
+
+
+
+@KathiravanKathiravan-gl9wu
+
